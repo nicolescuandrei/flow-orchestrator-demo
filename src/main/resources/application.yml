@@ -1,0 +1,10 @@
+server:
+  error:
+    whitelabel:
+      enabled: false
+  servlet:
+    session:
+      timeout: 10m
+
+flow-orchestrator:
+  max-nodes: 10

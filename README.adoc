@@ -1,0 +1,25 @@
+= Demo application
+:toc:
+:toclevels:1
+
+This _flow-orchestrator-demo_ is a simple Spring MVC app which implements the proposed flow orchestrator and can be used to test multiple flows.
+
+== Description
+
+Each page of the application contains a drop-down from which the next page(node) can be selected. Bellow this, the current state
+of the session context stack is displayed. The back action can be performed from the browser button or directly from URL.
+
+.Node types
+[%header,cols=2*]
+|===
+|Node Type|Demo application nodes
+|Starting nodes|/start
+|Inner nodes|/a, /b, /c, /d, /e
+|Ending nodes|/end
+|Error nodes|/error
+|===
+
+== Run
+
+- Run `FlowOrchestratorDemoApplication`
+- Check the first page of the app http://localhost:8080/start
