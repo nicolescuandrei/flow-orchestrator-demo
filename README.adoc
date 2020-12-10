@@ -2,7 +2,7 @@
 :toc:
 :toclevels:1
 
-This _flow-orchestrator-demo_ is a simple Spring MVC app which implements the proposed flow orchestrator and can be used to test multiple flows.
+This _flow-orchestrator-demo_ is a simple Spring MVC app which implements https://github.com/nicolescuandrei/flow-orchestrator[flow-orchestrator].
 
 == Description
 
