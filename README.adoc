@@ -8,6 +8,7 @@ This _flow-orchestrator-demo_ is a simple Spring MVC app which implements https:
 
 Each page of the application contains a drop-down from which the next page(node) can be selected. Bellow this, the current state
 of the session context stack is displayed. The back action can be performed from the browser button or directly from URL.
+Form submission uses Post/Redirect/Get(PRG) pattern.
 
 .Node types
 [%header,cols=2*]
